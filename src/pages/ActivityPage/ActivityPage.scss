@@ -1,0 +1,21 @@
+@import '../../variables.scss';
+
+.ActivityPage {
+  &__title {
+    text-align: 'left';
+    font-size: 24px;
+    margin-bottom: 5%;
+  }
+  &__button {
+    display: block !important;
+    margin-left: auto !important;
+    border-radius: 20px !important;
+    margin-bottom: 5%;
+      border: 1px solid $color-pink !important;
+      background-color: $color-pink !important;
+      &:focus, &:hover {
+        background-color: $color-pink;
+        border-color: $color-pink;
+      }
+  }
+}

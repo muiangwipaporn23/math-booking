@@ -1,0 +1,102 @@
+@import './variables.scss';
+
+@font-face {
+  font-family: sukhumvit;
+  src: url('../src/font/sukhumvitset-text-webfont.ttf');
+  unicode-range: U+0E00-U+0E7F;
+}
+
+.full-span-container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.full-height {
+  height: 100%;
+}
+
+* {
+  font-family: 'sukhumvit';
+}
+
+body {
+  color: $color-black;
+  background-color: $color-white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ant-layout {
+  background: $color-pink-bg !important;
+}
+
+.ant-menu {
+  background: $color-pink-bg !important;
+}
+
+.ant-menu-submenu {
+  background: $color-pink-bg !important;
+}
+
+.ant-menu-submenu-title {
+  background: $color-pink-bg !important;
+}
+
+.ant-layout-header {
+  padding: 10px 50px;
+  line-height: 44px;
+}
+
+.ant-layout-content {
+  width: 100%;
+  background-color: $color-white;
+  margin-left: auto;
+  margin-right: auto;
+  height : auto;
+  min-height : 100%;
+  overflow: hidden;
+  // height: -webkit-fill-available;
+}
+
+.ant-badge-status-dot {
+  width: 9px;
+  height: 9px;
+}
+
+.ant-dropdown-link {
+  cursor: pointer;
+}
+
+.anticon-caret-down {
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.icon-md-container {
+  width: 80px;
+  height: 80px;
+}
+
+// use mixin instead
+.mobile-only {
+  @media (min-width: $screen-sm) {
+    display: none;
+  }
+}
+
+.desktop-only {
+  @media (max-width: $screen-sm) {
+    display: none;
+  }
+}
+
+.main-content {
+  position: relative;
+  @media (min-width: $screen-sm) {
+    min-height: calc(100vh - 199px) !important;
+  }
+  min-height: calc(100vh - 65px);
+}

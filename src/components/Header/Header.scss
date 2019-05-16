@@ -1,0 +1,50 @@
+
+.Header {
+  &__container {
+    display: flex; 
+    justify-content: flex-end;
+    padding: 40px 40px;
+    border-bottom: 1px solid gainsboro;
+    background-color: #2b1a17;
+    .img {
+      z-index: 1000;
+      margin-top: -40px;
+      position: absolute;
+      height: 200px;
+      left: 2vw;
+    }
+    .title {
+      color: white;
+      font-size: 28px;
+    }
+    .subtitle {
+      color: white;
+      font-size: 22px;
+    }
+    .content {
+      font-size: 28px;
+      margin-right: 50px;
+      text-align: right;
+      color: white;
+    }
+    .menu {
+      margin: 10px 50px 0 50px;
+      cursor: pointer;
+      color: white;
+      text-align: right;
+    }
+    .menu:hover {
+      color: #0F52BA;
+    }
+    .register {
+      border-radius: 20px;
+      margin: 0 10px 0 10px;
+      cursor: pointer;
+    }
+  }
+  &__input {
+    .ant-input-affix-wrapper .ant-input:not(:first-child) {
+      padding-left: 45px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import '../../variables.scss';
+
+.Menu {
+  &__leftMenuContainer {
+    .title {
+      text-align: center;
+      margin-top: 30%;
+      font-size: 24px;
+    }
+  }
+}

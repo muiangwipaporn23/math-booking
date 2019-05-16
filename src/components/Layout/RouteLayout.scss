@@ -1,0 +1,17 @@
+.RouteLayout {
+  &__divider {
+    border-bottom-style: solid;
+    border-bottom-color: gainsboro;
+    border-bottom-width: 1px;
+  }
+  &__children {
+    width: 100%;
+  }
+  &__navbar {
+    min-height: 66px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gainsboro;
+    z-index: 2;
+  }
+}

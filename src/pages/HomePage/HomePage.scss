@@ -1,0 +1,41 @@
+@import '../../variables.scss';
+
+.HomePage {
+  &__container {
+    margin: 5%;
+  }
+  &__header {
+    display: block;
+    text-align: right;
+  }
+  &__downloadButton {
+    border-radius: 20px !important;
+    border: 1px solid $color-pink !important;
+    background-color: $color-pink !important;
+    margin-left: 20% !important;
+    &:focus, &:hover {
+      background-color: $color-pink !important;
+      border-color: $color-pink !important;
+    }
+  }
+  &__modal {
+    .button {
+      background-color: $color-green;
+      border: 1px $color-green solid;
+      &:focus, &:hover {
+        background-color: $color-green;
+        border-color: $color-green;
+      }
+    }
+    .title {
+      padding-top: 5px;
+    }
+    .input {
+      margin-bottom: 20px;
+      color: black;
+    }
+    .alert {
+      margin-bottom: 20px;
+    }
+  }
+}

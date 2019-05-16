@@ -1,0 +1,40 @@
+@import '../../variables.scss';
+
+.WeekActiviesPage {
+  &__container {
+    margin: 5%;
+  }
+  &__header {
+    display: block;
+    text-align: right;
+    .downloadButton {
+      border-radius: 20px;
+      border: 1px solid $color-pink;
+      background-color: $color-pink;
+      &:focus, &:hover {
+        background-color: $color-pink;
+        border-color: $color-pink;
+      }
+    }
+  }
+  &__modal {
+    .button {
+      background-color: $color-green;
+      border: 1px $color-green solid;
+      &:focus, &:hover {
+        background-color: $color-green;
+        border-color: $color-green;
+      }
+    }
+    .title {
+      padding-top: 5px;
+    }
+    .input {
+      margin-bottom: 20px;
+      color: black;
+    }
+    .alert {
+      margin-bottom: 20px;
+    }
+  }
+}
