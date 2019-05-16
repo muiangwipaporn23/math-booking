@@ -1,6 +1,7 @@
-export const API_HOST = 'https://math-booking.herokuapp.com/api';   // production
-//export const API_HOST = 'http://localhost:3000/api';  // development
-//export const API_HOST = 'http://161.200.126.2:3001/api';  // server
+//export const API_HOST = 'https://math-booking.herokuapp.com/api';   // production
+//export const API_HOST = 'http://localhost:3001/api';  // development
+//export const API_HOST = 'http://161.200.126.2:3001/api';  // server1
+export const API_HOST = 'http://127.0.0.1:3001/api'; //server2
 
 export const HOME_PAGE_KEY = 'menu1';
 export const ROOM_PAGE_KEY = 'menu2';
